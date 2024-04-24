@@ -4,53 +4,118 @@
     <meta charset="UTF-8"> 
 	<title>实验4</title>
 	<style>
+		.donghua{
+			width: 200px;
+			height:200px;
+			background-color:red;
+			animation:.xingzhuang 0.1s linear 0s infinite;xiantiao;yanse;yundong;
+		}
+		div:hover{
+			animation-play-style:running;
+		}
+	</style>
+	<style>
 		.xingzhuang{
 			background-color:white;
 			padding:30px 200px;
 			border:3px solid black;
 			display:flex;
 			flex-direction:row;
+			
 		}
 	    .heng{
-
 			padding:50px;
-
-
 		}
 	</style>
 	<style>
 		.xuanxiang{
+			width:100px;
 			backgroung-color:white:
-			padding:60px 100px;
+			padding:60px 80px;
 			border:3px solid black;
 			display:flex;
 			flex-direction:column;
 		}
 		.shu{
-			padding:60px;
+			padding:30px;
+		}
+		.zi{
+			width:100px;
+			height:20px;
 		}
 	</style>
+	<style>
+		@keyframes .xingzhuang1 {
+            0%{
+				
+			}
+			100%{
+				width:290px;
+				height:120px;
+			}
+		}
+	</style>
+	<style>
+		@keyframes .xiantiao {
+			0%{
+				
+			}
+			100%{
+				
+			}
+		}
+	</style>
+	<style>
+		@keyframes .yanse {
+			0%{
+				
+			}
+			100%{
+				
+			}
+		}
+	</style>
+	<style>
+		@keyframes .yundong {
+			0%{
+				
+			}
+			100%{
+				
+			}
+		}
+	</style>
+
 	
 	
 </head>  
 <body>  
-<div>
-	
+
+
+<div class="xingzhuang" >
+	<button class="heng" >长方形</button>
+	<button class="heng" >圆</button>
+	<button class="heng" >正方形</button>
+	<button class="heng" >菱形</button>
+	<button class="heng" >椭圆</button>
 </div>
-<div class="xingzhuang">
-	<b class="heng" >长方形</b>
-	<b class="heng">圆</b>
-	<b class="heng">正方形</b>
-	<b class="heng">菱形</b>
-	<b class="heng">椭圆</b>
-</div>
+
 
 <div class="xuanxiang">
 	<b  class="shu">线条</b>
+	<button class="zi">虚线</button>
+	<button class="zi">实线</button>
+	
 	<b  class="shu">颜色</b>
+	<button class="zi">红色</button>
+	<button class="zi">绿色</button>
+	<button class="zi">蓝色</button>
+	
 	<b  class="shu">运动</b>
+	<button class="zi">动</button>
+	<button class="zi">静</button>
 </div>
-
+<div class="donghua"></div>
 
 </body>  
 </html>
